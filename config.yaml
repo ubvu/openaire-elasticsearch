@@ -1,7 +1,7 @@
 elasticsearch:
   cluster_url: "http://localhost:9200"   # URL of the Elasticsearch cluster
-  index: "openaire-netherlands-test"  # Name of the index where the documents will be stored
+  index: "openaire-netherlands"  # Name of the index where the documents will be stored
   username: "elastic" # Username of Elasticsearch cluster
   password: "changeme" # password of the user
 data_files:
-   path: "./json-parts/netherlands/" # Path to the directory containing the compressed JSON data files
+   path: "/mnt/c/Users/mauri/Downloads/Netherlands" # Path to the directory containing the compressed JSON data files
