@@ -5,6 +5,10 @@ This tool is designed to facilitate the process of ingesting data from OpenAIRE 
 
 The script reads a configuration file to obtain necessary details such as the Elasticsearch cluster URL, authentication credentials, and the path to the data files. It also provides a progress bar during the data ingestion process, giving real-time feedback on the progress and helping to identify any potential issues.
 
+![](./cover_image-openaire_elasticsearch.png)
+
+[The code has been generated aided by GPT-4 in this conversation](https://chat.openai.com/c/eef08c3f-ec15-4240-93e2-0de5c9671657). 
+
 ## TL;DR
 Quickly set up and run a Python script to ingest OpenAIRE data into Elasticsearch. Monitor progress with a real-time progress bar.
 
